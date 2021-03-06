@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+.col-lg-7{
+    width: 58.33333%;
+}
+.col-lg-3{
+    width: 25%;
+}
+.col-lg-12{
+    width: 100%;
+}
+
+body{
+    width: 500px;
+    height: 450px;
+    
+    color: whitesmoke;
+    margin: auto;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(107, 107, 233);
+    
+}
+.row{     
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.col{
+    align-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-sinrise-box{
+    margin-top: 30px;
+}
+
+#date{
+    font-size: 30px;
+}
+#sunrise{
+    margin-top: 15px;
+}
+#icon{
+    width: 150px;
+    height: 150px;
+}
+
+#time{
+    font-size: 50px;
+}
+#humidity, #pressure, #wind{
+    margin-bottom: 10px;
+}
+
+#temp{
+    font-size: 30px;
+    text-align: center;
+}
+
+#description{
+    font-size: 18px;
+    font-weight: bold;
+}
